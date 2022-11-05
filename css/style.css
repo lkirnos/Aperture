@@ -5,9 +5,16 @@
     margin: 0;
 }
 
+body{
+    padding-top: 83px;
+}
+
 header{
     padding: 24px 0;
     background: #181818;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .header_main{
@@ -73,11 +80,15 @@ header{
 }
 
 .main_image{
-    background-image: url(../images/bg_main.jpg);background-size: cover;
-    height: 100vh;
+    padding-bottom: 71px;
+    background-image: url(../images/bg_main.jpg);
+    background-size: cover;
+    height: calc(100vh - 83px);
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .main_style{
@@ -109,4 +120,59 @@ main h1{
 
 .main_text_padding{
     padding: 18px 0;
+}
+
+.fixed_location{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.fixed_location li{
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.fixed_location li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/icon12000.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.fixed_location li:nth-child(2):before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/iconf11.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.fixed_location li:nth-child(3):before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/iconiso.svg");
+    width: 32px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.fixed_location li:last-of-type:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/iconlocation.svg");
+    width: 10px;
+    height: 16px;
+    margin-right: 6px;
 }
