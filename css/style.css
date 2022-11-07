@@ -48,7 +48,6 @@ header{
 
 .header_button_template{
     margin-left: 31px;
-    padding: 24px 20px 24px 0;
 }
 
 .header_list_general{
@@ -132,7 +131,7 @@ main h1{
 }
 
 .fixed_location li{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -176,3 +175,190 @@ main h1{
     height: 16px;
     margin-right: 6px;
 }
+
+.sunset{
+    background-image: url(../images/bg_sunset.jpg);
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.sunset .sunset_container{
+    max-width: 298px;
+    margin-right: 62px;
+}
+
+.sunset_container h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sunset_container p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.leaves{
+    background-image: url(../images/bg_leaves.jpg);
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.leaves .leaves_container{
+    max-width: 273px;
+    margin-right: 87px;
+}
+
+.leaves_container h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.leaves_container p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.past_clients{
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 140px;
+    max-height: 500px;
+}
+
+.past_clients .past_clients_container{
+    max-width: 441px;
+    text-align: center;
+}
+
+.past_clients h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.past_clients p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-top: 15px;
+}
+
+.clients_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients_icons a{
+    margin: 109px;
+    padding-top: 82px;
+    max-width: 128px;
+}
+
+.stars{
+    background-image: url(../images/bg_stars.jpg);
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.stars .stars_container{
+    max-width: 241px;
+    margin-right: 119px;
+}
+
+.stars_container h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.stars_container p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.help{
+    background-color: #000000;
+    background-size: cover;
+    max-height: 414px;
+    align-items: center;
+    padding-top: 113px;
+    padding-bottom: 108px;
+}
+
+.help_style{
+    max-width: 571px;
+    justify-content: center;
+    align-items: center;
+}
+
+.help h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.help p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 15px;
+}
+
