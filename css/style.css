@@ -15,6 +15,7 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 .header_main{
@@ -30,7 +31,7 @@ header{
     padding: 0 32px;
 }
 
-#navbar{
+.navbar{
     list-style: none;
     display: flex;
     align-items: center;
@@ -254,7 +255,8 @@ main h1{
 }
 
 .past_clients .past_clients_container{
-    max-width: 441px;
+    max-width: 1168px;
+    margin: auto;
     text-align: center;
 }
 
@@ -277,6 +279,7 @@ main h1{
     text-align: center;
     color: #C0C0C0;
     padding-top: 15px;
+    margin-bottom: 82px;
 }
 
 .clients_icons{
@@ -286,8 +289,6 @@ main h1{
 }
 
 .clients_icons a{
-    margin: 109px;
-    padding-top: 82px;
     max-width: 128px;
 }
 
@@ -328,16 +329,16 @@ main h1{
 
 .help{
     background-color: #000000;
-    background-size: cover;
     max-height: 414px;
-    align-items: center;
     padding-top: 113px;
     padding-bottom: 108px;
+    text-align: center;
 }
 
 .help_style{
-    max-width: 571px;
-    justify-content: center;
+    max-width: 600px;
+    justify-content: space-between;
+    margin: auto;
     align-items: center;
 }
 
@@ -347,8 +348,8 @@ main h1{
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
-    text-align: center;
     color: #FFFFFF;
+    margin-bottom: 15px;
 }
 
 .help p{
@@ -357,8 +358,32 @@ main h1{
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    text-align: center;
     color: #C0C0C0;
-    margin-top: 15px;
+    margin-bottom: 22px;
 }
 
+.help_touch{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    align-items: center;
+    padding: 5px 10px 5px 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.help a:before{
+    content: "";
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-color: #000000;
+    border-radius: 14px;
+    margin-right: 7px;
+}

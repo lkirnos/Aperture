@@ -1,0 +1,13 @@
+@media screen and (max-width: 360px) {
+    
+}
+
+@media screen and (max-width: 428px) {
+    .header_main{
+        height: calc(65vh-85px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
