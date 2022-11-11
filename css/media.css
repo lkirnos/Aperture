@@ -1,13 +1,60 @@
 @media screen and (max-width: 360px) {
-    
+
 }
 
 @media screen and (max-width: 428px) {
-    .header_main{
-        height: calc(65vh-85px);
+    .main_image{
+        height: calc(65vh - 83px);
+    }
+
+    main h1{
+        font-size: 44px;
+    }
+
+    .help h2{
+        font-size: 30px;
+    }
+
+    .help p{
+        font-size: 18px;
+    }
+
+    .past_clients h2{
+        font-size: 30px;
+    }
+
+    .past_clients p{
+        font-size: 18px;
+    }
+
+    .main_text_padding{
+        padding: 16px 5px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+    .navbar{
+        display: block;
+    }
+
+    .header_template{
+        font-size: 12px;
+        padding: 0 4px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header_large{
+        margin-left: 25px;
+    }
     
+    .header_short{
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .header_general{
+        font-size: 12px;
+    }
 }
