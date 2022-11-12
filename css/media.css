@@ -45,11 +45,11 @@
 
 @media screen and (max-width: 850px) {
     .header_large{
-        margin-left: 25px;
+        margin-right: 25px;
     }
     
     .header_short{
-        margin-left: 25px;
+        margin-right: 25px;
     }
 }
 

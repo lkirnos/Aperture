@@ -37,12 +37,12 @@ header{
 }
 
 .header_large{
-    margin-left: 56px;
+    margin-right: 56px;
     padding: 0
 }
 
 .header_short{
-    margin-left: 32px;
+    margin-right: 32px;
     padding: 0;
 }
 
