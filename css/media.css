@@ -1,4 +1,28 @@
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 925px) {
+    .header_general{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header_large{
+        margin-right: 25px;
+    }
+    
+    .header_short{
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar{
+        display: block;
+    }
+
+    .header_template{
+        font-size: 12px;
+        padding: 0 4px;
+    }
 
 }
 
@@ -36,29 +60,6 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    .navbar{
-        display: block;
-    }
+@media screen and (max-width: 360px) {
 
-    .header_template{
-        font-size: 12px;
-        padding: 0 4px;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .header_large{
-        margin-right: 25px;
-    }
-    
-    .header_short{
-        margin-right: 25px;
-    }
-}
-
-@media screen and (max-width: 925px) {
-    .header_general{
-        font-size: 12px;
-    }
 }
