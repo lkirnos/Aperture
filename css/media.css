@@ -24,6 +24,22 @@
         padding: 0 4px;
     }
 
+    .what_we_do h3{
+        font-size: 30px;
+    }
+
+    .what_we_do h4{
+        font-size: 20px;
+    }
+
+    .what_we_do .description h4{
+        font-size: 10px;
+    }
+
+    .what_we_do .description p{
+        font-size: 10px;
+        line-height: 14px;
+    }
 }
 
 @media screen and (max-width: 428px) {
@@ -57,6 +73,27 @@
 
     .past_clients p{
         font-size: 18px;
+    }
+
+    .what_we_do .description h4{
+        font-size: 8px;
+        line-height: 13px;
+        margin-bottom: 5px;
+    }
+
+    .what_we_do .description p{
+        font-size: 8px;
+        line-height: 10px;
+        margin-bottom: 10px;
+    }
+
+    .read_more{
+        font-size: 12px;
+    }
+
+    .what_we_do a:before{
+        height: 22px;
+        width: 22px;
     }
 }
 

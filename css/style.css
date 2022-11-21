@@ -320,6 +320,7 @@ main h1{
     background-color: #000000;
     min-height: 540px;
     position: relative;
+    justify-content: left;
 }
 
 .tools .position_bg{
@@ -336,6 +337,7 @@ main h1{
     display: flex;
     align-items: center;
     min-height: 540px;
+    margin-left: 100px;
 }
 
 .tools .tools_item{
