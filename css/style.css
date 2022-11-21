@@ -69,6 +69,17 @@ header{
     text-decoration: none;
 }
 
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .main_image{
     padding-bottom: 71px;
     background-image: url(../images/bg_main.jpg);
@@ -167,6 +178,109 @@ main h1{
     margin-right: 6px;
 }
 
+.what_we_do{
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+
+.what_we_do .container{
+    max-width: 1168px;
+}
+
+.what_we_do h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.what_we_do h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+
+.frex_wrap{
+    flex-wrap: wrap;
+}
+
+.what_we_do article{
+    max-width: 576px;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.what_we_do article img{
+    width: 100%;
+    display: block;
+}
+
+.what_we_do article .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding-right: 30px;
+}
+
+.what_we_do .description h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.what_we_do .description p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 17px;
+}
+
+.read_more{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    align-items: center;
+    padding: 5px 10px 5px 4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.what_we_do a:before{
+    content: "";
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-color: #000000;
+    border-radius: 14px;
+    margin-right: 7px;
+}
+
 .sunset{
     background-image: url(../images/bg_sunset.jpg);
     background-size: cover;
@@ -200,6 +314,90 @@ main h1{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+
+.tools{
+    background-color: #000000;
+    min-height: 540px;
+    position: relative;
+}
+
+.tools .position_bg{
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    background-image: url(../images/tools_foto.jpg);
+    position: absolute;
+}
+
+.tools .container{
+    display: flex;
+    align-items: center;
+    min-height: 540px;
+}
+
+.tools .tools_item{
+    max-width: 540px;
+}
+
+.tools h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+
+.tools h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.tools p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.check_it_out{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    align-items: center;
+    padding: 5px 10px 5px 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.tools a:before{
+    content: "";
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-color: #000000;
+    border-radius: 14px;
+    margin-right: 7px;
 }
 
 .leaves{
