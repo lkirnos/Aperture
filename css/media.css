@@ -11,6 +11,8 @@
 
     .tools .position_bg{
         position: relative;
+        height: 300px;
+        width: 100%;
     }
 }
 
@@ -49,10 +51,6 @@
     .what_we_do .description p{
         font-size: 10px;
         line-height: 14px;
-    }
-
-    .tools .position_bg{
-        display: none;
     }
 }
 

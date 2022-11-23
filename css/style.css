@@ -377,11 +377,6 @@ main h1{
     margin-bottom: 20px;
 }
 
-.tools .position_bg .fixed_location{
-    justify-content: left;
-    position: relative;
-}
-
 .check_it_out{
     background-color: #FFFFFF;
     border-radius: 14px;
