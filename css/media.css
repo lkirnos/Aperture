@@ -1,6 +1,16 @@
+@media screen and (max-width: 1150px) {
+    .tools .position_bg{
+        width: 37%;
+    }
+}
+
 @media screen and (max-width: 925px) {
     .header_general{
         font-size: 12px;
+    }
+
+    .tools .position_bg{
+        position: relative;
     }
 }
 
@@ -39,6 +49,10 @@
     .what_we_do .description p{
         font-size: 10px;
         line-height: 14px;
+    }
+
+    .tools .position_bg{
+        display: none;
     }
 }
 
