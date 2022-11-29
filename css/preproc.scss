@@ -36,14 +36,29 @@ header {
     list-style: none;
     display: flex;
     align-items: center;
+    @include max-screen(767px){
+        display: block;
+    }
 }
 
 .header_large {
     margin-right: 56px;
+    @include max-screen(850px){
+        margin-right: 25px;
+    }
+    @include max-screen(767px){
+        margin-right: 0;
+    }
 }
 
 .header_short {
     margin-right: 32px;
+    @include max-screen(850px){
+        margin-right: 25px;
+    }
+    @include max-screen(767px){
+        margin-right: 0;
+    }
 }
 
 .header_general {
@@ -54,6 +69,9 @@ header {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 15px;
+    @include max-screen(925px){
+        font-size: 12px;
+    }
 }
 
 .header_template {
@@ -67,10 +85,13 @@ header {
     border-radius: 14px;
     padding: 9px 20px 13px 20px;
     text-decoration: none;
+    @include max-screen(767px){
+        font-size: 12px;
+        padding: 0 4px;
+    }
 }
 
 .cd-header {
-
     -webkit-transition: -webkit-transform 0.5s;
     -moz-transition: -moz-transform 0.5s;
     transition: transform 0.5s;
@@ -116,6 +137,9 @@ header {
     white-space: nowrap;
     color: transparent;
     display: none;
+    @include max-screen(767px){
+        display: inline-block;
+    }
 }
 
 .cd-marker {
@@ -238,6 +262,9 @@ main.nav-is-visible {
     align-items: flex-end;
     box-sizing: border-box;
     position: relative;
+    @include max-screen(428px){
+        height: calc(65vh - 83px);
+    }
 }
 
 .main_style {
@@ -260,6 +287,9 @@ main{
         line-height: 59px;
         text-align: center;
         color: #FFFFFF;
+        @include max-screen(428px){
+            font-size: 44px;
+        }
     }
 }
 
@@ -271,6 +301,9 @@ main{
 .main_text_padding {
     font-size: 14px;
     padding: 18px 0;
+    @include max-screen(428px){
+        padding: 16px 5px;
+    }
 }
 
 .fixed_location {
@@ -345,6 +378,9 @@ main{
         text-align: center;
         color: #FFFFFF;
         margin-bottom: 15px;
+        @include max-screen(767px){
+            font-size: 30px;
+        }
     }
     h4 {
         font-family: $main_font;
@@ -355,6 +391,9 @@ main{
         text-align: center;
         color: #C0C0C0;
         margin-bottom: 42px;
+        @include max-screen(767px){
+            font-size: 20px;
+        }
     }
     article {
         max-width: 576px;
@@ -382,6 +421,14 @@ main{
             color: #FFFFFF;
             text-align: left;
             margin-bottom: 10px;
+            @include max-screen(767px){
+                font-size: 10px;
+            }
+            @include max-screen(428px){
+                font-size: 8px;
+                line-height: 13px;
+                margin-bottom: 5px;
+            }
         }
         p {
             font-family: $main_font;
@@ -391,6 +438,15 @@ main{
             line-height: 20px;
             color: #C0C0C0;
             margin-bottom: 17px;
+            @include max-screen(767px){
+                font-size: 10px;
+                line-height: 14px;
+            }
+            @include max-screen(428px){
+                font-size: 8px;
+                line-height: 10px;
+                margin-bottom: 10px;
+            }
         }
     }
     a {
@@ -402,6 +458,10 @@ main{
             background-color: $main_color;
             border-radius: 14px;
             margin-right: 7px;
+            @include max-screen(428px){
+                height: 22px;
+                width: 22px;
+            }
         }
     }
 }
@@ -424,6 +484,9 @@ main{
     color: $main_color;
     text-decoration: none;
     display: inline-flex;
+    @include max-screen(428px){
+        font-size: 12px;
+    }
 }
 
 .sunset {
@@ -471,6 +534,14 @@ main{
         background-size: cover;
         background-image: url(../images/tools_foto.jpg);
         position: absolute;
+        @include max-screen(1150px){
+            width: 37%; 
+        }
+        @include max-screen(925px){
+            position: relative;
+            height: 300px;
+            width: 100%;
+        }
     }
     .container {
         display: flex;
@@ -590,6 +661,9 @@ main{
         line-height: 42px;
         text-align: center;
         color: #FFFFFF;
+        @include max-screen(428px){
+            font-size: 30px;
+        }
     }
     p {
         font-family: $main_font;
@@ -601,6 +675,9 @@ main{
         color: #C0C0C0;
         padding-top: 15px;
         margin-bottom: 82px;
+        @include max-screen(428px){
+            font-size: 18px;
+        }
     }
 }
 
@@ -665,6 +742,9 @@ main{
         line-height: 42px;
         color: #FFFFFF;
         margin-bottom: 15px;
+        @include max-screen(428px){
+            font-size: 30px;
+        }
     }
     p {
         font-family: $main_font;
@@ -674,6 +754,9 @@ main{
         line-height: 30px;
         color: #C0C0C0;
         margin-bottom: 22px;
+        @include max-screen(428px){
+            font-size: 18px;
+        }
     }
     a{
         &:before {
@@ -693,6 +776,9 @@ main{
     justify-content: space-between;
     margin: auto;
     align-items: center;
+    @include max-screen(428px){
+        padding: 0 15px;
+    }
 }
 
 .help_touch {

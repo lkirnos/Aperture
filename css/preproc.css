@@ -26,13 +26,38 @@ header {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: block;
+  }
+}
 
 .header_large {
   margin-right: 56px;
 }
+@media screen and (max-width: 850px) {
+  .header_large {
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header_large {
+    margin-right: 0;
+  }
+}
 
 .header_short {
   margin-right: 32px;
+}
+@media screen and (max-width: 850px) {
+  .header_short {
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header_short {
+    margin-right: 0;
+  }
 }
 
 .header_general {
@@ -43,6 +68,11 @@ header {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 15px;
+}
+@media screen and (max-width: 925px) {
+  .header_general {
+    font-size: 12px;
+  }
 }
 
 .header_template {
@@ -56,6 +86,12 @@ header {
   border-radius: 14px;
   padding: 9px 20px 13px 20px;
   text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .header_template {
+    font-size: 12px;
+    padding: 0 4px;
+  }
 }
 
 .cd-header {
@@ -89,6 +125,11 @@ header {
   white-space: nowrap;
   color: transparent;
   display: none;
+}
+@media screen and (max-width: 767px) {
+  .cd-3d-nav-trigger {
+    display: inline-block;
+  }
 }
 
 .cd-marker {
@@ -177,6 +218,11 @@ main.nav-is-visible {
   box-sizing: border-box;
   position: relative;
 }
+@media screen and (max-width: 428px) {
+  .main_image {
+    height: calc(65vh - 83px);
+  }
+}
 
 .main_style {
   max-width: 580px;
@@ -198,6 +244,11 @@ main h1 {
   text-align: center;
   color: #FFFFFF;
 }
+@media screen and (max-width: 428px) {
+  main h1 {
+    font-size: 44px;
+  }
+}
 
 .main_text {
   text-align: center;
@@ -207,6 +258,11 @@ main h1 {
 .main_text_padding {
   font-size: 14px;
   padding: 18px 0;
+}
+@media screen and (max-width: 428px) {
+  .main_text_padding {
+    padding: 16px 5px;
+  }
 }
 
 .fixed_location {
@@ -277,6 +333,11 @@ main h1 {
   color: #FFFFFF;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 767px) {
+  .what_we_do h3 {
+    font-size: 30px;
+  }
+}
 .what_we_do h4 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -286,6 +347,11 @@ main h1 {
   text-align: center;
   color: #C0C0C0;
   margin-bottom: 42px;
+}
+@media screen and (max-width: 767px) {
+  .what_we_do h4 {
+    font-size: 20px;
+  }
 }
 .what_we_do article {
   max-width: 576px;
@@ -314,6 +380,18 @@ main h1 {
   text-align: left;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 767px) {
+  .what_we_do .description h4 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .what_we_do .description h4 {
+    font-size: 8px;
+    line-height: 13px;
+    margin-bottom: 5px;
+  }
+}
 .what_we_do .description p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -323,6 +401,19 @@ main h1 {
   color: #C0C0C0;
   margin-bottom: 17px;
 }
+@media screen and (max-width: 767px) {
+  .what_we_do .description p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .what_we_do .description p {
+    font-size: 8px;
+    line-height: 10px;
+    margin-bottom: 10px;
+  }
+}
 .what_we_do a:before {
   content: "";
   display: inline-block;
@@ -331,6 +422,12 @@ main h1 {
   background-color: #000000;
   border-radius: 14px;
   margin-right: 7px;
+}
+@media screen and (max-width: 428px) {
+  .what_we_do a:before {
+    height: 22px;
+    width: 22px;
+  }
 }
 
 .frex_wrap {
@@ -351,6 +448,11 @@ main h1 {
   color: #000000;
   text-decoration: none;
   display: inline-flex;
+}
+@media screen and (max-width: 428px) {
+  .read_more {
+    font-size: 12px;
+  }
 }
 
 .sunset {
@@ -399,6 +501,18 @@ main h1 {
   background-size: cover;
   background-image: url(../images/tools_foto.jpg);
   position: absolute;
+}
+@media screen and (max-width: 1150px) {
+  .tools .position_bg {
+    width: 37%;
+  }
+}
+@media screen and (max-width: 925px) {
+  .tools .position_bg {
+    position: relative;
+    height: 300px;
+    width: 100%;
+  }
 }
 .tools .container {
   display: flex;
@@ -517,6 +631,11 @@ main h1 {
   text-align: center;
   color: #FFFFFF;
 }
+@media screen and (max-width: 428px) {
+  .past_clients h2 {
+    font-size: 30px;
+  }
+}
 .past_clients p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -527,6 +646,11 @@ main h1 {
   color: #C0C0C0;
   padding-top: 15px;
   margin-bottom: 82px;
+}
+@media screen and (max-width: 428px) {
+  .past_clients p {
+    font-size: 18px;
+  }
 }
 
 .clients_icons {
@@ -592,6 +716,11 @@ main h1 {
   color: #FFFFFF;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 428px) {
+  .help h2 {
+    font-size: 30px;
+  }
+}
 .help p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -600,6 +729,11 @@ main h1 {
   line-height: 30px;
   color: #C0C0C0;
   margin-bottom: 22px;
+}
+@media screen and (max-width: 428px) {
+  .help p {
+    font-size: 18px;
+  }
 }
 .help a:before {
   content: "";
@@ -616,6 +750,11 @@ main h1 {
   justify-content: space-between;
   margin: auto;
   align-items: center;
+}
+@media screen and (max-width: 428px) {
+  .help_style {
+    padding: 0 15px;
+  }
 }
 
 .help_touch {
