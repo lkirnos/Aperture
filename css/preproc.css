@@ -64,7 +64,6 @@ header {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .cd-header:after {
   content: "";
   display: table;
@@ -103,7 +102,6 @@ header {
   transform: translateZ(0) rotateX(90deg);
   transition: transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s;
 }
-
 .cd-marker::before {
   content: "";
   position: absolute;
@@ -266,7 +264,6 @@ main h1 {
   padding-top: 113px;
   padding-bottom: 100px;
 }
-
 .what_we_do .container {
   max-width: 1168px;
 }
@@ -394,7 +391,6 @@ main h1 {
   position: relative;
   justify-content: left;
 }
-
 .tools .position_bg {
   width: 50%;
   height: 100%;
